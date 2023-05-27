@@ -1,5 +1,5 @@
 let fahrenheit;
-let celsius= (fahrenheit - 32) * 5/9;
+let celsius = (fahrenheit - 32) * 5/9;
 console.log(celsius);
 
 fahrenheit = 50;
