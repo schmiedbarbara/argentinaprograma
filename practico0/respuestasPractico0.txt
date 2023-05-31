@@ -1,0 +1,17 @@
+Ejercicio 01:
+a. Si el minuendo es 10 y el sustraendo es 2, el programa devuelve 8.
+b. Si los numeros son 2, 17 y 7 el programa devuelve 204.
+
+Ejercicio 02:
+a. El area de un rectángulo de base 5cm y altura 3cm es de: 15cm
+b. El area de un rectángulo de base 12.5 cm y altura 5.3cm es de: 66.25cm
+
+Ejercicio 03:
+a. 50 grados fahrenheit son 10 grados celsius
+b. 75 grados fahrenheit son 23.88888888888889 grados celsius
+
+Ejercicio 04:
+
+a. El promedio entre 5, 7 y 9 es: 7
+b. El promedio entre -2 , -3 y -8 es: -4.333333333333333
+c. El promedio entre -1.2 , 5.3 y -3.3 es: 0.2666666666666666
