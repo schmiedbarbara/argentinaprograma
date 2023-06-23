@@ -8,7 +8,7 @@ let admitidos = [];
 //con este bucle chequeamos cada elemento de la lista de invitados
 //y preguntamos si el elemento es igual a los nombres de los invitados rechazados
 //esto genera que se agreguen los invitados a su arreglo correspondiente
-for (let i=0; i < listaInvitados.length;i++){
+for (let i=0; i < listaInvitados.length; i++){
     if (listaInvitados[i] == "Jose" || listaInvitados[i] == "Sofia"){
         rechazados.push(listaInvitados[i]);
     } else {
@@ -25,3 +25,14 @@ console.log("La lista de invitados rechazados es:");
 for (let i=0; i < rechazados.length; i++){
     console.log(rechazados[i]);
 }
+
+//EXTRA ---------------------------------------------------------
+//por ultimo, si queremos la lista ordenada de personas admitidas, 
+//podemos utilizar el método sort()
+
+console.log("La lista ordenada de invitados admitidos es:");
+for (let i=0; i < admitidos.length; i++){
+    admitidos.sort();
+    console.log(admitidos[i]);
+}
+//esta función ordena numéricamente o alfabéticamente los elementos de un arreglo 
