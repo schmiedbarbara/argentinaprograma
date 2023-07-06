@@ -19,7 +19,7 @@ function determinarGanador(user,pc){
   if (user===pc){
     return "Empate!";
   } 
-  //rama afirmativa
+
   if (user == "papel" && pc == jugada[0]){
     return "Gana el usuario!";
   } else if (user == "tijera" && pc == jugada[1]){
@@ -28,7 +28,6 @@ function determinarGanador(user,pc){
     return "Gana el usuario!";
   }
 
-  //rama negativa
   if (user == "piedra" && pc == jugada[1]){
     return "Gana la computadora!";
   } else if (user == "papel" && pc == jugada[2]){
